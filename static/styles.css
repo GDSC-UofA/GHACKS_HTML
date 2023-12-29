@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;700;800&family=Roboto:ital@0;1&display=swap');
+
+
+/* 
+    Primary Font: Manrope
+        font-family: 'Manrope', sans-serif;
+    
+    Secondary Font: Roboto
+        font-family: 'Roboto', sans-serif;
+*/
+
+
+
+/* 
+
+DESIGN STANDARDS
+
+BORDER-RADIUS: 10PX;
+White BG Color: #F1F3F4;
+Other Whites: #FFFFFF;
+Black BG Color: #00000;
+
+ */
+
+
+
+/* GDSC PRIMARY & SECONDARY COLORS */
+.yellow {
+    font-family: 'Manrope', 'sans-serif';
+    color: #f9ab00;
+}
+
+
+.yellow2 {
+    color: #fde293;
+}
+
+.blue {
+    color: #4285f4;
+}
+
+.blue2 {
+    color: #8ab4f8;
+}
+
+.green {
+    color: #34a853;
+}
+
+.green2 {
+    color: #81c995;
+}
+
+.red {
+    color: #ea4335;
+}
+
+.red2 {
+    color: #f28b82;
+
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: #F1F3F4;
+}
+/* GDSC PRIMARY & SECONDARY COLORS */
+
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F1F3F4;
+}
+
+
+header {
+    text-align: center;
+    padding: 0px 0; 
+}
+
+header img {
+    max-width: 30%; 
+    height: auto;
+    margin-top: 0px; 
+}
+
+.event-date {
+    font-size: 1.5em;
+    margin-top: 0px; 
+}
+
+section {
+    padding: 100px;
+    text-align: center;
+}
+
+
+
+.reg-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.reg-para {
+    padding-left: 7%;
+    font-family: 'Manrope', 'sans-serif';
+    color: #F1F3F4;
+    font-size: 1.8rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.reg-title {
+    padding: 0 7%;
+    font-family: 'Manrope', sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 8rem;
+    line-height: 1.5;
+}
+
+.section-card {
+    background-color: black;
+    border-radius: 10px;
+    min-height: 80vh;
+    margin: 7% 3%;
+}
+
+
+.reg-card {
+    position: relative;
+    margin-top: 1%;
+}
+
+.section-title {
+    padding: 5% 5%;
+    font-family: 'Manrope', sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 3.2rem;
+}
+
+.section-para {
+    padding: 3% 7%;
+    font-family: 'Manrope', 'sans-serif';
+    color: #F1F3F4;
+    font-size: 2rem;
+}
+
+footer {
+    border-radius: 10px 10px 0 0;
+    background-color: #000000;
+    padding: 7% 0;
+    height: 45vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer-main {
+    font-family: 'Manrope', sans-serif;
+    font-size: 4rem;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.footer-sub {
+    padding-top: 3%;
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.6rem;
+    color: #F1F3F4;
+    font-weight: 200;
+}
+
+
+.gdsc-logo {
+    background-image: "/assets/gdsc-logo.png";
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+}
+
+
+.navbar {
+    padding: 2% 3%;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2rem;
+    background-color: #F1F3F4;
+}
+
+.nav-item:hover {
+    text-decoration: underline 5px;
+    
+}
+.btn {
+    border-radius: 10px;
+    background-color: black;
+    color: #F1F3F4;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.4rem;
+}
+
+.btn:hover {
+    background-color: #F1F3F4;
+    border-color: black;
+    color: black
+}
+
+
+.accordion {
+    margin: 1% 7%;
+    font-family: 'Manrope', sans-serif;
+}
+
+.accordion-button {
+    font-size: 2rem;
+}
+
+.accordion-body {
+    font-size: 1.5rem;
+}
+
+.sponsor-card {
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+.sponsor-title {
+    font-family: 'Manrope', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+
+.sponsor-img {
+    color: black;
+    height: 100px;
+    margin: 10px;
+}
+
+.sponsor-para {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.8rem;
+    color: black;
+}
+
+
+.social-icons {
+    margin: auto;
+}
+
+.social-icon {
+    height: 20vh;
+    padding: 3%;
+    padding-top: 4%;
+    color: white;
+}
+
+
+.row {
+    margin: auto;
+}
+
+
+.track-card {
+    padding: 1.2%;
+    margin: 3%;
+    max-width: 90%;
+    min-height: 35vh;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.track-card:hover {
+    transform: scale(1.05);
+}
+
+.track-card:last-child {
+    margin-bottom: 50px;
+}
+
+.track-name {
+    padding: 3%;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.track-description {
+    padding: 3%;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* .faq-container {
+    margin: 0 7%;
+}
+
+.faq-question {
+    font-family: 'Manrope', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #F1F3F4;
+}
+
+.faq-answer {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.5rem;
+    color: #F1F3F4;
+} */
+
+.accordion {
+    border-radius: 10px;
+    border-top: 2rem;
+    border-left: 2rem;
+    border-right: 2rem;
+}
+
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-item {
+    border-color: black;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #81c995;
+    color: black;
+    border-color: black;
+}
+
+
+@media screen and (max-width: 660px) {
+
+    .gdsc-logo {
+        height: 15px;
+        padding-left: 5px;
+        padding-right: 4px;
+    }
+
+    .reg-title {
+        font-size: 3rem;
+    }
+
+    .reg-para {
+        font-size: 1.2rem;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+    .section-para {
+        font-size: 1.5rem;
+    }
+
+    .section-card {
+        min-height: 60vh;
+    }
+
+    .track-row {
+        margin: auto;
+    }
+
+    .track-card {
+        text-align: center;
+    }
+
+    .track-card:last-child {
+        margin-bottom: 7%;
+    }
+
+    .reg-card {
+        min-height: 45vh;
+    }
+
+    footer {
+        height: 25vh;
+    }
+
+    .footer-main {
+        font-size: 3rem;
+    }
+
+}
